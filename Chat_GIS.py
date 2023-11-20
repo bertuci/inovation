@@ -3,7 +3,7 @@ import openai
 import time
 
 def setup_openai():
-    api_key = "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"
+    api_key = "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"
     openai.api_key = api_key
 
 def chat_with_openai_with_throttling(prompt, model="text-davinci-003", max_tokens=300, temperature=0.8, stop_sequences=None):
