@@ -4,7 +4,7 @@ import os
 import time
 
 def setup_openai():
-    api_key = os.getenv("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")
+    api_key = os.getenv("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")
     openai.api_key = api_key
 
 def chat_with_openai_with_throttling(prompt, model="text-davinci-003", max_tokens=300, temperature=0.8, stop_sequences=None):
